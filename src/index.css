@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.navbar-bg {
+  background-color: antiquewhite;
+  z-index: 99;
+  position: relative;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+
+.navbar li{
+  padding: 0 1rem;
+}
+
+.navbar li a{
+  font-weight: lighter;
+}
+
+.navbar li a:hover{
+  color: purple !important; 
+  text-shadow: 0 0.2rem 0.2rem;
+}
+
+.btn-style{
+ width: 7rem ;
+ height: 2.5rem;
+ border-radius: 2rem;
+ color: white;
+ background-color: rgb(36, 45, 168);
+ text-transform: capitalize;
+}
+
+.btn-style:first-child{
+  margin-right: 1rem ;
+}
+
+.btn-style:hover{
+  border: 0.1rem solid rgb(36, 45, 168) ;
+  background-color: transparent;
+  color: rgb(36, 45, 168) ;
+  box-shadow: rgb(89, 94, 163);
+}
+
+.btn-style-border{
+  border: 0.1rem solid rgb(36, 45, 168) ;
+  background-color: transparent;
+  color: rgb(36, 45, 168) ;
+  box-shadow: rgb(89, 94, 163);
+}
+.btn-style-border:hover{
+  color: white;
+ background-color: rgb(36, 45, 168);
+ text-transform: capitalize;
+}
